@@ -3,19 +3,20 @@
 'use client';
 
 import { css } from '@emotion/react';
+import Link from 'next/link';
 
 const Home = () => {
   return (
     <div css={test}>
       <div css={divStyle}>
-        <a css={aStyle} href="/test">
+        <Link css={aStyle} href="/test">
           test
-        </a>
+        </Link>
       </div>
       <div css={divStyle}>
-        <a css={aStyle} href="/test/order">
+        <Link css={aStyle} href="/test/order">
           order
-        </a>
+        </Link>
       </div>
     </div>
   );
